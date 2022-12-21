@@ -8,7 +8,7 @@ Create an app to fetch an array of (hardcoded) objects and present them in a tab
 - **Reducer**: Handle the actions by implementing a different state change for each action. Reducers provide pure functions, that based on the current action and the current app state, create a new app state
 
 
-## Feature 1. Combine for Networking
+## Feature 1. Combine for Data Access
 Implement networking logic using Combine. 
 - Build on top of Feature 1 above to now fetch the array from the network. 
 - You can use any publicky available API to retrieve an array of objects and present them in the table view.  
@@ -22,6 +22,9 @@ Implement networking logic using Combine.
 ## Feature 3. UI Testing
 - Write UI Tests for testing the view controller logic.
 
+Requirements:
+1. Launch the app
+2. 
 
 ## Feature 4. Accessibility
 - Voiceover
