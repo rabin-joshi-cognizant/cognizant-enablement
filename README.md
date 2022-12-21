@@ -40,7 +40,42 @@ UI:
 
 _Note: We have mentioned [ReSwift](https://github.com/ReSwift/ReSwift) for its ease of use and manageable learning curve. However, you may use any other framework of your chioce for the purpose. The goal here is to demonstrate implementation of a unidirectional data flow architecture. You are therefore free to use any Redux-like framework as long as it enables you to sererate conerns into seperate components: `Action`, `Reducer`, `Store`, `State` etc._
 
+#### Example
 
+Here's an example of a simple Reactive Store implementation from the companion project in this repository. It implements a single `fetchAll` action that updates the state with an array of Strings.
+
+```swift
+import ReSwift
+
+// The global application store, which is responsible for managing the appliction state.
+let mainStore = Store<AppState>(
+    reducer: reducer,
+    state: nil
+)
+
+// The reducer is responsible for evolving the application state based on the actions it receives.
+func reducer(action: Action, state: AppState?) -> AppState {
+    var state = state ?? AppState()
+    switch action {
+    case AppAction.fetchAll:
+        state.arr = ["James", "Robert", "John", "Michael", "David"]
+    default:
+        break
+    }
+    return state
+}
+
+// The entire app state is explicitly stored in this data structure.
+struct AppState {
+    var arr: [String] = []
+}
+
+// All of the actions that can be applied to the state
+enum AppAction: Action {
+    case fetchAll
+}
+
+```
 
 ## 2. Combine. (Required)
 
