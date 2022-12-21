@@ -1,8 +1,6 @@
 # Cognizant Enablement
 
-We are excited to propose updates to the existing training program for new associates joining the Cap1 team. As part of this program, we would like to have all candidates complete an assignment of building an iOS application individually and from scratch. The knowledge gained in working through this assignment will help the candidates gain the prerequisite knowledge needed for the project and ensure they are a good fit.
-
-There are several mandatory features that the application must possess in order to be considered complete. These include:
+As part of the Enablement Training, candidates are asked to complete an assignment of building an iOS application individually and from scratch. There are several mandatory features that the application must possess in order to be considered complete. These include:
 
 - Demonstration of unidirectional data flow architecture (using a framework such as [ReSwift](https://github.com/ReSwift/ReSwift) or [TCA](https://github.com/pointfreeco/swift-composable-architecture)).
 - Demonstration of Combine, Apple's new framework for reactive programming.
