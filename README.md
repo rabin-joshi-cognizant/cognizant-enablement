@@ -1,6 +1,6 @@
 # Cognizant Enablement
 
-We are excited to propose updates to the existing training program for new associates joining the Cap1 team. As part of this program, we would like to have all candidates complete an assignment. This assignment will help us evaluate their skills and ensure that they are a good fit for the training program.
+We are excited to propose updates to the existing training program for new associates joining the Cap1 team. As part of this program, we would like to have all candidates complete an assignment of building an iOS application individually and from scratch. The knowledge gained in working through this assignment will help the candidates gain the prerequisite knowledge to ensure that they are a good fit for the project.
 
 There are several mandatory features that the application must possess in order to be considered complete. These include:
 
