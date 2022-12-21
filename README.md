@@ -1,7 +1,6 @@
 # CognizantEnablement
 
-`Required`
-## 1. Reactive Store
+## 1. Reactive Store. (Required)
 
 #### Assignment:
 
@@ -28,35 +27,32 @@ UI:
 _Note: We have mentioned ReSwift for its ease of use and manageable learning curve. However, you may use any other framework of your chioce for the purpose. The goal here is to demonstrate implementation of a unidirectional data flow architecture. You are therefore free to use any Redux-like framework as long as it enables you to sererate conerns into seperate components: `Action`, `Reducer`, `Store`, `State` etc._
 
 
-`Required`
-## 2. Combine 
+
+## 2. Combine. (Required)
 Implement networking logic using Combine. 
 - Build on top of Feature 1 above to now fetch the array from the network. 
 - You can use any publicky available API to retrieve an array of objects and present them in the table view.  
 
 
-`Required`
-## 3. Unit Tests
+
+## 3. Unit Tests (Required)
 - Write unit tests for all the classes/stucts. 
 - Ensure 85% code coverage. 
 
 
-`Optional`
-## 3. UI Testing
+
+## 3. UI Testing (Optional)
 - Write UI Tests for testing the view controller logic.
 
-Requirements:
-1. Launch the app
-2. 
 
 
-`Optional`
-## 4. Accessibility
+
+## 4. Accessibility (Optional)
 - Voiceover
 - Dynamic Type
 
 
-`Optional`
-## 5. Localization
+
+## 5. Localization (Optional)
 - Localize the title (or any other select text).
 
