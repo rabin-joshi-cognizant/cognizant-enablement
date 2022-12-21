@@ -71,7 +71,7 @@ cancellable = urlSession
 
 ## 3. Unit Tests (Required)
 - Write unit tests to test the actions, reducer, and store.
-- Write unit tests to test the networking logic.
+- Write unit tests to test the networking logic (ActionCreator/Thunk).
 - Write unit tests to test the view controller.
 - Ensure 85% code coverage. 
 
