@@ -40,9 +40,12 @@ Build upon #1 above to fetch the data from the network. You can use any publicly
 - Use Combine's `catch(_:)` or `replaceError(with:)` operator to gracefully handle errors, rather than letting it reach the subscriber.
 - Use Combine's `share()` operator to avoid needlessly reissuing expensive network requests.
 
-_Note: Here's an example demonstrating the fetching and decoding of JSON data from a URL endpoint from the following article: [Processing URL Session Data Task Results with Combine](https://developer.apple.com/documentation/foundation/urlsession/processing_url_session_data_task_results_with_combine) to accomplish this feature._
+_Note: Here's an example demonstrating fetching and decoding of JSON data from a URL endpoint._
 
 ```swift
+/// Processing URL Session Data Task Results with Combine
+/// https://developer.apple.com/documentation/foundation/urlsession/processing_url_session_data_task_results_with_combine
+
 struct User: Codable {
     let name: String
     let userID: String
