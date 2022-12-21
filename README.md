@@ -27,3 +27,8 @@ Implement networking logic using Combine.
 - Voiceover
 - Dynamic Type
 
+
+## Feature 5. Localization
+- Voiceover
+- Dynamic Type
+
