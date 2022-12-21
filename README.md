@@ -40,7 +40,9 @@ Build upon #1 above to fetch the data from the network. You can use any publicly
 - Use Combine's `catch(_:)` or `replaceError(with:)` operator to gracefully handle errors, rather than letting it reach the subscriber.
 - Use Combine's `share()` operator to avoid needlessly reissuing expensive network requests.
 
-_Note: Here's an example demonstrating fetching and decoding of JSON data from a URL endpoint._
+
+#### Example
+Here's an example demonstrating fetching and decoding of JSON data from a URL endpoint.
 
 ```swift
 /// Processing URL Session Data Task Results with Combine
