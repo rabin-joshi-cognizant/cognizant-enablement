@@ -30,14 +30,23 @@ _Note: We have mentioned ReSwift for its ease of use and manageable learning cur
 
 
 ## 2. Combine. (Required)
-Implement networking logic using Combine. 
-- Build on top of Feature 1 above to now fetch the array from the network. 
-- You can use any publicky available API to retrieve an array of objects and present them in the table view.  
 
+Build upon #1 above to fetch the data from the network. You can use any publicly available API ([like this one](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html)) to retrieve an array of objects from the network and present them in the table view.  
+
+- Implement networking & data parsing logic in a seperate class.
+- Create a Data Task Publisher which publishes the results of fetching data from the given URL.
+- Perform tasks such as error-handling and data parsing using Combine operators.
+- Use Combine’s `retry(_:)` operator to to immediately retry a failed data task due to transient network errors.
+- Use Combine's `catch(_:)` or `replaceError(with:)` operator to gracefully handle errors, rather than letting it reach the subscriber.
+- Use Combine's `share()` operator to avoid needlessly reissuing expensive network requests.
+
+_Note: Review the following Article: [Processing URL Session Data Task Results with Combine](https://developer.apple.com/documentation/foundation/urlsession/processing_url_session_data_task_results_with_combine) to accomplish this feature._
 
 
 ## 3. Unit Tests (Required)
-- Write unit tests for all the classes/stucts. 
+- Write unit tests to test the actions, reducer, and store.
+- Write unit tests to test the networking logic.
+- Write unit tests to test the view controller.
 - Ensure 85% code coverage. 
 
 
