@@ -4,7 +4,7 @@
 
 #### Assignment:
 
-Create an application using [ReSwift]() to display a list view of items. The application should have the following components:
+Create an application using [ReSwift](https://github.com/ReSwift/ReSwift) to display a list view of items. The application should have the following components:
 
 Actions:
 - Create an action to fetch the elements of the list.
@@ -25,7 +25,7 @@ UI:
 - Create a table view to display the items in the list.
 
 
-_Note: We have mentioned ReSwift for its ease of use and manageable learning curve. However, you may use any other framework of your chioce for the purpose. The goal here is to demonstrate implementation of a unidirectional data flow architecture. You are therefore free to use any Redux-like framework as long as it enables you to sererate conerns into seperate components: `Action`, `Reducer`, `Store`, `State` etc._
+_Note: We have mentioned [ReSwift](https://github.com/ReSwift/ReSwift) for its ease of use and manageable learning curve. However, you may use any other framework of your chioce for the purpose. The goal here is to demonstrate implementation of a unidirectional data flow architecture. You are therefore free to use any Redux-like framework as long as it enables you to sererate conerns into seperate components: `Action`, `Reducer`, `Store`, `State` etc._
 
 
 
