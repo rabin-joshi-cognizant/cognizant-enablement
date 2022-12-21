@@ -1,4 +1,19 @@
-# CognizantEnablement
+# Cognizant Enablement
+
+We are excited to propose updates to the existing training program for new associates joining the Cap1 team. As part of this program, we would like to have all candidates complete an assignment. This assignment will help us evaluate their skills and ensure that they are a good fit for the training program.
+
+There are several mandatory features that the application must possess in order to be considered complete. These include:
+
+- Demonstration of a reactive framework (such as RxSwift or ReactiveCocoa).
+- Demonstration of Combine, Apple's new framework for reactive programming.
+- Demonstration of unit testing, including how to write and run tests for your code.
+
+In addition to these mandatory features, there are several optional features that would be nice to have, but are not required. These include:
+- UI testing, including how to set up and run tests for your user interface.
+- Localization, including the ability to translate your app into different languages.
+- Accessibility, including the ability to make your app usable for people with disabilities.
+
+We have expanded upon the detailed requirements of what each of these features ential. 
 
 ## 1. Reactive Store (Required)
 
