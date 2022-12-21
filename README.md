@@ -29,6 +29,5 @@ Implement networking logic using Combine.
 
 
 ## Feature 5. Localization
-- Voiceover
-- Dynamic Type
+- Localize the title (or any other select text).
 
