@@ -33,13 +33,13 @@ _Note: We have mentioned [ReSwift](https://github.com/ReSwift/ReSwift) for its e
 
 Build upon #1 above to fetch the data from the network. You can use any publicly available API ([like this one](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html)) to retrieve an array of objects from the network and present them in the table view.  
 
-- Implement networking & data parsing logic in a seperate class.
+- Integrate networking with the Reactive Store from #1 above by encapsulating API callbacks in thunks (action creators) by leveraging [ReSwift-Thunk](https://github.com/ReSwift/ReSwift-Thunk).
 - Create a Data Task Publisher which publishes the results of fetching data from the given URL.
 - Perform tasks such as error-handling and data parsing using Combine operators.
 - Use Combine’s `retry(_:)` operator to to immediately retry a failed data task due to transient network errors.
 - Use Combine's `catch(_:)` or `replaceError(with:)` operator to gracefully handle errors, rather than letting it reach the subscriber.
 - Use Combine's `share()` operator to avoid needlessly reissuing expensive network requests.
-- Integrate with the store from #1 encapsulating API callbacks in thunks (action creators) by leveraging [ReSwift-Thunk](https://github.com/ReSwift/ReSwift-Thunk).
+
 
 
 #### Example
