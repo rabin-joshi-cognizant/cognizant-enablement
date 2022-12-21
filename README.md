@@ -1,6 +1,6 @@
 # CognizantEnablement
 
-## 1. Reactive Store. (Required)
+## 1. Reactive Store (Required)
 
 #### Assignment:
 
@@ -23,6 +23,7 @@ Store:
 
 UI:
 - Create a table view to display the items in the list.
+
 
 _Note: We have mentioned ReSwift for its ease of use and manageable learning curve. However, you may use any other framework of your chioce for the purpose. The goal here is to demonstrate implementation of a unidirectional data flow architecture. You are therefore free to use any Redux-like framework as long as it enables you to sererate conerns into seperate components: `Action`, `Reducer`, `Store`, `State` etc._
 
