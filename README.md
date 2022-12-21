@@ -4,7 +4,7 @@ We are excited to propose updates to the existing training program for new assoc
 
 There are several mandatory features that the application must possess in order to be considered complete. These include:
 
-- Demonstration of a reactive framework (such as RxSwift or ReactiveCocoa).
+- Demonstration of unidirectional data flow architecture (using a framework such as [ReSwift](https://github.com/ReSwift/ReSwift) or [TCA](https://github.com/pointfreeco/swift-composable-architecture)).
 - Demonstration of Combine, Apple's new framework for reactive programming.
 - Demonstration of unit testing, including how to write and run tests for your code.
 
