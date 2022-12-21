@@ -13,11 +13,9 @@ In addition to these mandatory features, there are several optional features tha
 - Localization, including the ability to translate your app into different languages.
 - Accessibility, including the ability to make your app usable for people with disabilities.
 
-We have expanded upon the detailed requirements of what each of these features ential. 
+We have expanded upon each of these requirements below: 
 
 ## 1. Reactive Store (Required)
-
-#### Assignment:
 
 Create an application using [ReSwift](https://github.com/ReSwift/ReSwift) to display a list view of items. The application should have the following components:
 
