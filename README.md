@@ -119,7 +119,11 @@ cancellable = urlSession
 - Write unit tests to test the actions, reducer, and store.
 - Write unit tests to test the networking logic (ActionCreator/Thunk).
 - Write unit tests to test the view controller.
-- Ensure 85% code coverage. 
+    - It should try and cover majority of methods and properties
+    - It should try and cover majority of the scenarios (if and for loops)
+    - Moc data can be used for data and network coverage.
+    - Ensure 85% code coverage.
+
 
 
 
