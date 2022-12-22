@@ -125,8 +125,8 @@ cancellable = urlSession
 
 ## 3. UI Testing (Optional)
 - Write UI Tests for testing the functional flow logic
-- It should cover all the happy paths
-- It should try and cover majority of the error/unhappy paths
+    - It should cover all the happy paths
+    - It should try and cover majority of the error/unhappy paths
 
 
 
@@ -142,5 +142,8 @@ cancellable = urlSession
 
 
 ## 5. Localization (Optional)
-- Localize the title (or any other select text).
+- Implement localization
+    - User localizable string file and NSlocalizedString.
+    - Add a language of your choice
+
 
