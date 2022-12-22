@@ -124,7 +124,10 @@ cancellable = urlSession
 
 
 ## 3. UI Testing (Optional)
-- Write UI Tests for testing the view controller logic.
+- Write UI Tests for testing the functional flow logic
+- It should cover all the happy paths
+- It should try and cover majority of the error/unhappy paths
+
 
 
 
