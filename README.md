@@ -134,10 +134,10 @@ cancellable = urlSession
 
 ## 4. Accessibility (Optional)
 - Provide/update accessibility properties for elements in the application 
--  Can be implemented in storyboard or programmatically. Note - lookout for  has changes in xcode 13 and above.
--  Implement at least 2 main two properties like accessibility identifier, label. 
- - Use of accessibility inspector to inspect accessibility properties
- - Demo of voice over is optional if device is available
+--  Can be implemented in storyboard or programmatically. Note - lookout for  has changes in xcode 13 and above.
+--  Implement at least 2 main two properties like accessibility identifier, label. 
+-- Use of accessibility inspector to inspect accessibility properties
+-- Demo of voice over is optional if device is available
 
 
 
